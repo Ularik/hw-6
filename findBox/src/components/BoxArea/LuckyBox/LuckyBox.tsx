@@ -12,7 +12,7 @@ const LuckyBox: React.FC<Props> = ({ hasItem, clicked, onClick }) => {
   if (clicked) boxClasses.push("hidden");
 
   return (
-    <div onClick={onClick} className="inline-block size-16 relative">
+    <div onClick={onClick} className="inline-flex justify-center items-center size-16 relative">
       <div className={boxClasses.join(" ")}></div>
       {hasItem ? "O" : null}
     </div>
