@@ -1,11 +1,11 @@
 import './App.css'
-import BoxArea from './components/BoxArea/BoxArea';
+import BoxAreaPage from './containers/BoxAreaPage';
 
 function App() {
 
   return (
-    <div className="w-[1200px] h-[100vh] mx-auto flex items-center justify-center">
-      <BoxArea />
+    <div className="mw-[1200px] mx-auto">
+      <BoxAreaPage />
     </div>
   );
 }
